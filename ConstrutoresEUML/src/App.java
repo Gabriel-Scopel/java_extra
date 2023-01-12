@@ -17,7 +17,9 @@ reduzida.  */
 
 public class App {
     public static void main(String[] args)  {
-        Racional r = new Racional(4, 16);
+        Racional r = new Racional(16, 32);
+        System.out.println(r.getNumerador());
+        System.out.println(r.getDenominador());
         
     }
 }
